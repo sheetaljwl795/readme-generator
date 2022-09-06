@@ -149,7 +149,7 @@ const generateReadMe = (data) => {
     .then((data) => {
         console.log(data)
         
-        fs.writeFile("./README.md", generateReadMe(data), (err) =>
+        fs.writeFile("./New-README.md", generateReadMe(data), (err) =>
         err ? console.log(err) : console.log('Success!')
     );
   });

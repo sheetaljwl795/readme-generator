@@ -99,48 +99,47 @@ const generateReadMe = (data) => {
     };    
     
     return `
+${liBadge}
 
-    ${liBadge}
+# ${data.title}
 
-    # ${data.title}
+## Description
+${data.description}
     
-    ## Description
-    ${data.description}
-     
-    ## Table of Contents
+## Table of Contents
 
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Guidelines](#guidelines)
-    - [Test](#test)
-    - [License](#license)    
-    - [Contact](#contact-information)
-    - [How To Contribute](#how-to-contribute)  
+- [Installation](#installation)
+- [Usage](#usage)
+- [Guidelines](#guidelines)
+- [Test](#test)
+- [License](#license)    
+- [Contact](#contact-information)
+- [How To Contribute](#how-to-contribute)  
 
-    ## Installation
-    ${data.instructions}
+## Installation
+${data.instructions}
 
-    * Your application should prompt the user for information like README entitled Description, Installation, Usage, Contributing, and Tests and GitHub URL. Feel free to add any additional prompts you think of.
+* Your application should prompt the user for information like README entitled Description, Installation, Usage, Contributing, and Tests and GitHub URL. Feel free to add any additional prompts you think of.
 
-    ## Usage
-    ${data.usage}
+## Usage
+${data.usage}
 
-    ## Guidelines
-    ${data.guidelines}
+## Guidelines
+${data.guidelines}
 
-    ## Test
-    ${data.test}
+## Test
+${data.test}
 
-    ## License
-    ${data.license}
+## License
+${data.license}
 
-    ## Contact Information
-    * My github profile is github.com/${data.username} 
-    * You can reachout to me at ${data.email} for any additional questions.
+## Contact Information
+* My github profile is github.com/${data.username} 
+* You can reachout to me at ${data.email} for any additional questions.
 
-    ## How to Contribute
-    If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-    `;
+## How to Contribute
+If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
+`;
 
     }
 
@@ -151,7 +150,7 @@ const generateReadMe = (data) => {
     .then((data) => {
         console.log(data)
         
-        fs.writeFile("./ReadMe.md", generateReadMe(data), (err) =>
+        fs.writeFile("README.md", generateReadMe(data), (err) =>
         err ? console.log(err) : console.log('Success!')
     );
   });

@@ -80,7 +80,7 @@ const questions = [
 // };
 
 const generateReadMe = (data) => {
-
+    let liBadge;
     switch (data.license) {
         case 'MIT':
             liBadge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
@@ -108,18 +108,20 @@ const generateReadMe = (data) => {
     ${data.description}
      
     ## Table of Contents
-    - [Installation](#instructions)
+
+    - [Installation](#installation)
     - [Usage](#usage)
     - [Guidelines](#guidelines)
     - [Test](#test)
     - [License](#license)    
+    - [Contact](#contact-information)
+    - [How To Contribute](#how-to-contribute)  
 
     ## Installation
     ${data.instructions}
 
     * Your application should prompt the user for information like README entitled Description, Installation, Usage, Contributing, and Tests and GitHub URL. Feel free to add any additional prompts you think of.
 
-       
     ## Usage
     ${data.usage}
 
@@ -149,7 +151,7 @@ const generateReadMe = (data) => {
     .then((data) => {
         console.log(data)
         
-        fs.writeFile("./New-README.md", generateReadMe(data), (err) =>
+        fs.writeFile("./ReadMe.md", generateReadMe(data), (err) =>
         err ? console.log(err) : console.log('Success!')
     );
   });

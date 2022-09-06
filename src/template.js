@@ -23,8 +23,24 @@ ${licenseSelection(data.license)}
 
 # ${data.title}
 
+Dream-Job-Finder
+
 ## Description
 ${data.description}
+This project presented is a simple job search engine.
+
+When the user enters a Job title, city or zip, mile radius, and days posted a list of the most recent 25 job will populate.
+
+More often than not when searching for a job, postings are rarely updated or deleted. Therefore our goal was to find the most recent postings available.
+
+Upon searching through the listings there are some simple features added such as an external link and a save button to your local storage.
+
+If the external link is clicked the user will be brought to a new page where the job listing is originally posted vs the use of a 3rd party interface.
+
+From there the user can apply and then return to our search engine to find the next best fitting opportunity.
+
+To add some appeal there is also a weather widget which contains a 5 day forcast and automatically detects the users location.
+
     
 ## Table of Contents
 
@@ -39,16 +55,24 @@ ${data.description}
 ## Installation
 ${data.instructions}
 
-* Your application should prompt the user for information like README entitled Description, Installation, Usage, Contributing, and Tests and GitHub URL. Feel free to add any additional prompts you think of.
+* Very easy to use this application.
+*User need to enter their skills, zip code, with in miles, duration of the job posting and will get the jobs list and user can add his favorite jobs and also see the weather for that particular area.
+
 
 ## Usage
 ${data.usage}
+
+All the job seeker will find the job here.
 
 ## Guidelines
 ${data.guidelines}
 
 ## Test
 ${data.test}
+
+Enter the skills,location,select with in miles,enter how many days job got posted and select submit.
+
+
 
 ## License
 ${data.license}

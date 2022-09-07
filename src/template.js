@@ -63,14 +63,20 @@ ${data.instructions}
 ${data.usage}
 
 All the job seeker will find the job here.
+https://drive.google.com/file/d/1SvIBP-gPd1yXcibh4meKxgdmrzfmjCcy/view
+
 
 ## Guidelines
 ${data.guidelines}
+
+*Enter the required data in the text box to get the results.
+
 
 ## Test
 ${data.test}
 
 Enter the skills,location,select with in miles,enter how many days job got posted and select submit.
+
 
 
 

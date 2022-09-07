@@ -1,12 +1,12 @@
 
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Dream job finder
+# gfhf
 
 Dream-Job-Finder
 
 ## Description
-This project presented is a simple job search engine.
+hfh
 This project presented is a simple job search engine.
 
 When the user enters a Job title, city or zip, mile radius, and days posted a list of the most recent 25 job will populate.
@@ -33,31 +33,39 @@ To add some appeal there is also a weather widget which contains a 5 day forcast
 - [How To Contribute](#how-to-contribute)  
 
 ## Installation
-When the user enters a Job title, city or zip, mile radius, and days posted a list of the most recent 25 job will populate.
+fhfg
 
-* Your application should prompt the user for information like README entitled Description, Installation, Usage, Contributing, and Tests and GitHub URL. Feel free to add any additional prompts you think of.
+* Very easy to use this application.
+*User need to enter their skills, zip code, with in miles, duration of the job posting and will get the jobs list and user can add his favorite jobs and also see the weather for that particular area.
+
 
 ## Usage
-More often than not when searching for a job, postings are rarely updated or deleted. Therefore our goal was to find the most recent postings available.
+hfg
 
 All the job seeker will find the job here.
+https://drive.google.com/file/d/1SvIBP-gPd1yXcibh4meKxgdmrzfmjCcy/view
+
 
 ## Guidelines
-To add some appeal there is also a weather widget which containsa 5 day forcas and automatically detects tusers location. the 
+jhf
+
+*Enter the required data in the text box to get the results.
+
 
 ## Test
- Enter all the data to populate the expected output
+gfj
 
 Enter the skills,location,select with in miles,enter how many days job got posted and select submit.
 
 
 
+
 ## License
-ISC
+MIT
 
 ## Contact Information
-* My github profile is [sheetaljwl795](https://www.github.com/sheetaljwl795) 
-* You can reachout to me at sheetaljwl795@gmail.com for any additional questions.
+* My github profile is [gfjgf](https://www.github.com/gfjgf) 
+* You can reachout to me at gfj for any additional questions.
 
 ## How to Contribute
 If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
